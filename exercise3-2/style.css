@@ -1,0 +1,79 @@
+@font-face{ 
+font-family: "SourceSansPro-Light";
+src: url("fonts/SourceSansPro-Light.woff") format('woff');
+ }
+@font-face{ 
+font-family: "Raleway";
+src: url("fonts/Raleway.woff") format('woff');
+ }
+
+
+body, p, h1{
+		margin: 0;
+		padding: 0;	
+		background-color: #848081;
+		color:white;
+
+}
+
+h1{
+		background-color: #576e74;
+
+}
+
+
+
+#container {
+	text-align: center;
+}
+
+h1{
+	font-family: "Raleway", sans-serif;
+	font-size: 5vw;
+	letter-spacing: -1px;
+	text-align: left;
+	padding: 3vw;
+
+}
+
+.im {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.im p{ 
+	font-family: "SourceSansPro-Light";
+	font-size: 1.8vw;
+	max-width: 40vw;
+	text-align: center;
+	line-height: 1.1;
+	margin: 5vw 0vw 0vw 2vw;
+}
+
+.im img{
+	text-align: left;
+	margin-top: 2vw;
+  	width: 20%;
+  	height: auto;
+}
+
+
+.timestamp{
+	font-family: "SourceSansPro-Light";
+	margin-top:2vw; 
+	margin-bottom: 3vw: 
+	font-size: 2vw;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.body-text{
+		font-size: 1.8vw;
+		color: red;
+	}
+	.timestamp{
+		font-size: 1vh;
+	}
+}
