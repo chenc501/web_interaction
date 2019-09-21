@@ -1,6 +1,7 @@
-var date = new Date();
+
 
 function showTimeAMPM(){
+	var date = new Date();
     var h = date.getHours(); 
     var m = date.getMinutes(); 
     var s = date.getSeconds(); 
