@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Business Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        body{
+            background-color: #6b858a;
+        }
+
+        #tool{
+
+            position:fixed;
+            top:30%;
+            left: 2%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 5px; 
+        }
+
+        #word{
+            text-align: center;
+            font-family: Raleway;
+            color: #f1f0f0;
+            display: inline-block;
+            position: absolute;
+            text-align: right;
+            margin: center;
+            height:100px;
+            left:40%;
+            top:25%;
+            margin-left:-50px;
+        }
+
+        #pic img{
+            width:43%;
+            position: absolute;
+            margin: center;
+            left: 110%;
+            top:32%;
+        }
+
+        #square {
+            width: 100%;
+            height: 40em;
+
+            }
+
+        #time{
+            position: fixed;
+            z-index: 1;
+            color: white;
+            font-family: Raleway;
+            margin-left: 2vw;
+        }
+
+        button {
+             padding: .5em 2em;
+        }
+
+    </style>
+    </head>
+    
+    <body>
+    <div id="bd">
+        
+        <div id="word">
+                <div id="pic">
+                    <img src="logo.png">
+                 </div>
+            <H1>Eric Chia-Hua Chen</H1>
+            <p>Product Design</p>
+            <p>+1-9172000000</p>
+            <p>chenc501@newschool.edu</p>
+        </div>
+
+    <p id="time"></p>
+    </div>
+
+    
+
+<div id="square"></div>
+
+            <button type="button" id="clickMe">Change BG Color</button>
+            <button onclick="resetBk()">Reset BG color</button>
+            <button onclick="stilo()">Click here to change text color</button>
+            <button onclick="resetStyle()">Reset text color</button>
+            <button type="button" onclick="timeFunction()"> Click here to display Date and Time.</button>
+
+            
+
+        
+       
+
+        <div id="tool">
+         <select id="myFonts" onchange="fontFunction()">  
+
+            <option value="Raleway">Raleway</option>
+            <option value="Helvetica">Helvetica</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="courier, monospace">Courier</option>
+        </select>
+        <br>
+        <br>
+
+            <input type="checkbox" id="boldCheck" onclick="boldFunction()"> Bold <br>
+            <input type="checkbox" id="italicCheck" onclick="italicFunction()"> Italic <br>
+
+        <br>
+        <br>
+            <input id="size" type= "range" value="16" min="12" max="30"step="1" oninput= "sizeFunction()">
+
+    </div>
+
+    </body>
+    
+      <script src="js/jquery.js"></script>
+      <script src="js/scripts.js"></script>   
+</html>
