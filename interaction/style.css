@@ -24,6 +24,13 @@ h1{
   font-family: "Quicksand", sans-serif;
   font-size: 45px;
 }
+
+a, p{
+color: #ECAC00;
+text-decoration: initial; 
+}
+
+
 #indexsec{
   /*position: absolute;
   margin: 30px;
