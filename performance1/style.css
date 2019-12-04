@@ -68,6 +68,15 @@
             transition: .5 ease;
                 }
 
+        #circle1{
+            width: 30px;
+            height: 30px;
+            background-color: darkgrey;
+            color: transparent;
+            transform: rotate(45deg);
+            transition: .5 ease;
+                }
+
         #FinalDisplaybox{
           background-color: white;
           width: 100vw;
@@ -79,6 +88,10 @@
         }
 
         #circle:hover{
+           background-color: black;
+                }
+
+        #circle1:hover{
            background-color: black;
                 }
 
