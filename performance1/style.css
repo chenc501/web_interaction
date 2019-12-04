@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Solway&display=swap');
+        body{
+            background-color: black;
+            text-align: center;
+            /*font-family: 'PT Serif', serif;*/
+        }
+
+        h1{
+            color: white;
+            position: sticky;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            /*font-family: 'PT Serif', serif;*/
+        }
+
+      
+        #light{
+            max-width:100VW;
+            max-height: 100vw;
+            position: sticky
+        }
+
+
+        #switch{
+              position: absolute;
+              left: 0;
+              top: 70%;
+              width: 100%;
+              text-align: center;
+        }
+
+        #switch1{
+            position: absolute;
+            left: 0;
+            top: 70%;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+        }
+
+
+        #result {
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 100;
+          display: none;
+                }
+
+        #result1 {
+       /*   color: #1E1A1A;*/
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 150;
+          display: none;
+                }
+
+        #circle{
+            width: 30px;
+            height: 30px;
+            background-color: darkgrey;
+            color: transparent;
+            transform: rotate(45deg);
+            transition: .5 ease;
+                }
+
+        #FinalDisplaybox{
+          background-color: white;
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          left: 0;
+
+        }
+
+        #circle:hover{
+           background-color: black;
+                }
+
+}
+/*        button {
+             padding: .4em 1em;
+        }*/
