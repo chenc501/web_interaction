@@ -24,17 +24,15 @@
 
         #switch{
               position: absolute;
-              left: 0;
+              left: 49%;
               top: 70%;
-              width: 100%;
               text-align: center;
         }
 
         #switch1{
             position: absolute;
-            left: 0;
+            left: 49%;
             top: 70%;
-            width: 100%;
             text-align: center;
             z-index: 1;
         }
