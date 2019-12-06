@@ -17,10 +17,6 @@
 //     document.getElementById('word').style.color = 'black';
 //  }
 
-$('#circle').click(function(){
-
-	$('#circle').css('transform', 'rotate(0deg)', 'black')
-})
 
 
 $('#resultButton').click(function(){
